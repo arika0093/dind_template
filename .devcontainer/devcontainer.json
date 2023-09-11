@@ -16,13 +16,15 @@
 		"ghcr.io/devcontainers/features/python:1": {},
 		"ghcr.io/devcontainers-contrib/features/vercel-cli:1": {},
 		"ghcr.io/shyim/devcontainers-features/bun:0": {}
-	}
+	},
+
+	
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "docker --version",
+	"postCreateCommand": "sh postinstall.sh"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
