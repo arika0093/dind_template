@@ -1,6 +1,6 @@
 # README
 
-for devpod. 
+[devpod](https://devpod.sh/)でdockerが使用可能な環境を構築する
 
-`https://github.com/arika0093/dind_template`
+URL: `https://github.com/arika0093/dind_template`
 
